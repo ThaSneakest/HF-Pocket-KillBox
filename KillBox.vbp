@@ -1,0 +1,48 @@
+Type=Exe
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#C:\Windows\SysWOW64\scrrun.dll#Microsoft Scripting Runtime
+
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; C:\Program Files (x86)\VBReFormer\Lib\MSCOMCTL.OCX
+
+Form=FrmKillBox.frm
+Form=FrmTmpOpt.frm
+Module=modAPIFilesAndPaths; modAPIFilesAndPaths.bas
+Module=modStrings; modStrings.bas
+Module=CommonFunction; CommonFunction.bas
+Module=OS_Detect; OS_Detect.bas
+Module=LaunchAppSychronous; LaunchAppSychronous.bas
+Module=KillProcess; KillProcess.bas
+Module=ParsePath; ParsePath.bas
+Module=modShellFileDisk; modShellFileDisk.bas
+Module=basDelTree32; basDelTree32.bas
+Module=ShutDownNT; ShutDownNT.bas
+Class=clsToolTip; clsToolTip.cls
+Module=modVBFileDisk; modVBFileDisk.bas
+Module=EllReg; EllReg.bas
+Module=modFindFilesAPI; modFindFilesAPI.bas
+Module=modCombobox; modCombobox.bas
+Module=modRegistry; modRegistry.bas
+
+Startup="FrmKillBox"
+Name="KillBox"
+Title="KillBox"
+Description=""
+HelpFile=""
+HelpContextID="0"
+ExeName32="KillBox"
+CompilationType=0 'Native
+StartMode=0
+RequireLicenseKey=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+OptimizationType=2
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+
